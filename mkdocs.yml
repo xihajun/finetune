@@ -132,15 +132,18 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
 
 plugins:
     - search
+    - inline-svg
     - mkdocstrings
     - git-revision-date
+    - include-markdown
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
