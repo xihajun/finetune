@@ -1,4 +1,4 @@
-# The Unix Shell, Git, Github and LLMs: an Introduction
+# LLMs: an Introduction
 
 ### Requirements
 

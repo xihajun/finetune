@@ -4,50 +4,30 @@
 
 # Fine-tuning LLM Guidance
 
-![header](assets/foss_title.png)
+![mindmap](assets/mindmap.png)
 
-## Workshop Structure
+Once upon a digital age, nestled in the circuits and silicon valleys of our vast computational landscape, there resided a linguistic wizard known as LLM - the Large Language Model. It was a creature of great potential, with a voracious appetite for data and a profound ability to weave words into the very fabric of understanding. But to truly harness its powers for the tasks at hand, a grand adventure of fine-tuning awaited.
 
-Synchronously, we will meet each week virtually for two hours to discuss and have hands-on activities with our instructors. 
+## Chapter 1: The Data Prep Chronicles
 
-Each week we will discuss a new topic, ranging from data management to documentation to software management (see [schedule](./schedule.md)). 
+Our journey begins in the bustling metropolis of Data Prep, a place where raw information is transformed into glistening nuggets of knowledge. Here, the alchemists and data smiths worked tirelessly, curating and conditioning vast datasets. They meticulously cleaned, tokenized, and structured each piece, crafting a treasure trove of learning material fit for our wizard.
 
-Asynchronously, you will read through the online materials (this website and linked websites) and develop your own project-based idea for strenghtening your Open Science skills.
+## Chapter 2: AutoTrain's Magic Carpets
 
-Much of the content interconnects from week to week and many of the skills and approaches we discuss relate to each other. 
+With the data prepped, we turned to the enchanting AutoTrain, a mystical algorithmic carpet that would carry our LLM through the training skies. This was no ordinary ride; it was a carpet woven with self-optimizing threads, capable of navigating the vast expanses of parameter space with the grace of an algorithmic ballet. As it soared through epochs, the wizard LLM absorbed the essence of the data, its understanding deepening with every pass.
 
-Our ultimate goal in this workshop is for you to "level up" one or more of those philosophies/approaches/skills. 
+## Chapter 3: The Evaluation Trials
 
-### Capstone Project 
+Training complete, the wizard faced the Evaluation Trials. A panel of sage metrics like ROUGE1, ROUGE2, and ROUGEL awaited, ready to put the wizard's newfound prowess to the test. The trials were rigorous, pushing the boundaries of summary and sentiment, challenging the wizard to demonstrate its mastery over the nuanced art of language.
 
-Throughout the duration of the course, students will be working on a project of their choosing that uses the tools and concepts presented in FOSS. The idea is that doing something tangible related to your own science or work will help you 'level up' your open science skills. This could be solo work or a group project depending on your interests. The culmination of the project will be a short presentation to the class on the last day of the course. You can read more about it at the [capstone project](./final_project/overview.md) page.
+## Chapter 4: The Black Box Enigma
 
----
+But our tale does not end at the trials. For in the realm of machine learning, there lies the mysterious Black Box, a domain where decisions are made in shadows and reason is often cloaked in mystery. Our brave explorers ventured into this enigma, wielding tools of interpretability and transparency to shed light upon the wizard's inner workings. Each revelation was a victory, a step towards the demystification of the arcane.
 
-## Expected Outcomes
+## Epilogue: The Linguistic Wizard's Legacy
 
--   Proficiently organize your lab, external and internal communications, and teach and conduct research with open source software
--   Ability to scale out computations from laptop to the cloud and High Performance Computing/High Throughput Computing systems
--   Skillfully manage your research data through the data lifecycle 
--   Join a larger community of Open Science practitioners
--   Be an Advocate for Open Science in your professional circles and communities
+As our journey comes to a close, the linguistic wizard stands ready, its powers fine-tuned and its capabilities honed to near perfection. It now speaks with clarity and relevance, a testament to the trials, the data, and the countless cycles of learning it has undergone.
 
-By working through an example project relevant to your interests, you will practice open science skills using CyVerse, GitHub, R or Python, and other resources. At the end of the course, you and your team will present a plan for how to integrate open science into your research, lab, or other areas of your choosing.
+In the annals of our digital domain, this adventure will be recounted as the time when humans and algorithms collaborated to create a linguistic wizard, a beacon of knowledge that could illuminate the path to understanding for all who sought its wisdom.
 
----
-
-**Funding and Citations:**
-
-CyVerse is funded by the Arizona Board of Regents and the US National Science Foundation [![NSF](https://www.nsf.gov/policies/images/NSF_Official_logo_High_Res_1200ppi.png){width="25"}](https://nsf.gov) under Award Numbers: 
-
-[![NSF-0735191](https://img.shields.io/badge/NSF-0735191-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0735191)  [![NSF-1265383](https://img.shields.io/badge/NSF-1265383-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1265383) [![NSF-1743442](https://img.shields.io/badge/NSF-1743442-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743442)
-
-The CyVerse Zenodo Community has published, citable versions of CyVerse materials: 
-
-[![DOI](https://img.shields.io/badge/Zenodo-CyVerse%20Community-blue)](https://zenodo.org/communities/cyverse)
-
-Please cite CyVerse appropriately when you make use of our resources; see [CyVerse citation policy](https://cyverse.org/policies/cite-cyverse).
-
-<figure markdown>
-  [![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/){target=_blank} 
-</figure>
+And so, with a dash of data, a sprinkle of training, and a pinch of evaluation, the Large Language Model was ready to cast its spells upon the world, one word at a time.
