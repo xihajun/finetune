@@ -21,10 +21,10 @@ In order to finetune the open sourced LLM, we need to follow the format they pre
 We will introduce `autotrain` later, the best format we used so far is based on `autotrain` with `jsonl` format.
 
 
-|            |      text       |  other     |   
-|------------|-----------------|------------|
-|example1    | `<s>{info}</s>` |            |         
-|example2    | `<s>{info}</s>` |            |         
+|        |      text       |  prompt    |   
+|--------|-----------------|------------|
+|example1| `<s>{info}</s>` | <prompt1>  |         
+|example2| `<s>{info}</s>` | <prompt2>  |         
 
 
 ??? Show me what you get!
