@@ -1,4 +1,16 @@
-# Introduction to Project Management
+# Evaluating Models
+
+Reference: https://github.com/krai/mistral7b_cnndailymail/tree/main/scripts/evaluation
+
+=== "CNN Dailymail"
+
+
+    | MODEL_NAME                               | Command                                                                                                    |
+    |------------------------------------------|------------------------------------------------------------------------------------------------------------|
+    | 01-ai/Yi-6B                              | <pre><code>python summarization_evaluator.py --model_name 01-ai/Yi-6B --data_file data/cnn_eval.json --num 100 --batch_size 5</code> </pre>              |
+    | xihajun/cnn_10k_0.001_30_16_32_0.1_0.01 | <pre><code>python summarization_evaluator.py --model_name xihajun/cnn_10k_0.001_30_16_32_0.1_0.01 --data_file data/cnn_eval.json --num 100 --batch_size 5</code></pre>  |
+    | EleutherAI/gpt-j-6b                      | <pre><code>python summarization_evaluator.py --model_name EleutherAI/gpt-j-6b --data_file data/cnn_eval.json --num 100 --batch_size 5</code></pre>      |
+
 
 !!! Success "Learning Objectives"
         

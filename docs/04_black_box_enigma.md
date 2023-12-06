@@ -1,5 +1,9 @@
 # :material-file-document-multiple: Documentation & :material-antenna: Communication
 
+
+https://pytorch.org/tutorials/intermediate/model_parallel_tutorial.html
+
+
 !!! Success "Learning Objectives"
         
     After this lesson, you should be able to:
