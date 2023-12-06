@@ -34,29 +34,63 @@ Huggingfaces' `autotrain` makes our life easier and have a great support from th
 ## Fine-tune the model
 
 
-```bash
-autotrain \
-    --model_name_or_path facebook/bart-large-cnn \
-    --train_file data/train.jsonl \
-    --validation_file data/eval.jsonl \
-    --output_dir output \
-    --do_train \
-    --do_eval \
-    --per_device_train_batch_size 2 \
-    --per_device_eval_batch_size 2 \
-    --overwrite_output_dir \
-    --predict_with_generate \
-    --num_train_epochs 1 \
-    --max_source_length 1024 \
-    --max_target_length 128 \
-    --save_steps 1000 \
-    --logging_steps 1000 \
-    --eval_steps 1000 \
-    --warmup_steps 1000 \
-    --learning_rate 3e-5 \
-    --fp16 \
-    --push_to_hub
-```
+
+=== "usage"
+
+    ```bash
+    autotrain llm \
+        --train \
+        --model mistralai/Mistral-7B-v0.1 \
+        --project-name finetuned_model \
+        --data-path training_data/ \
+        --text-column text \
+        --lr 0.002 \
+        --batch-size 16 \
+        --epochs 30 \
+        --block-size 1024 \
+        --model_max_length 2048 \
+        --warmup-ratio 0.1 \
+        --lora-r 16 \
+        --lora-alpha 32 \
+        --lora-dropout 0.1 \
+        --weight-decay 0.01 \
+        --gradient-accumulation 4 \
+        --fp16 \
+        --use-peft \
+        --use-int4 \
+        --push-to-hub \
+        --token <your token> \
+        --repo-id xihajun/cnn_10k_0002_30_16_32_0.1_0.01 \
+        --target-modules q_proj,v_proj \
+        --log wandb \
+        --save_total_limit 10 \
+        --save_strategy epoch
+        --merge-adapter
+    ```
+
+=== "more details"
+
+    <div class="annotate" markdown>
+
+
+    > autotrain llm 
+    
+    
+    
+    --train --model mistralai/Mistral-7B-v0.1 --project-name mix_2000_autotrain_llm --data-path training_data/ --text-column text --lr 0.002 --batch-size 16 --epochs 30 --block-size 1024 --model_max_length 2048 --warmup-ratio 0.1 --lora-r 16 --lora-alpha 32 --lora-dropout 0.1 --weight-decay 0.01 --gradient-accumulation 4 --fp16 --use-peft 
+    > --use-int4 
+
+    > --push-to-hub 
+
+    > --token (1) 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 
+    
+    --repo-id xihajun/cnn_10k_0002_30_16_32_0.1_0.01 --target-modules q_proj,v_proj --log wandb --save_total_limit 10 --save_strategy epoch
+
+    </div>
+
+    1.  :man_raising_hand: Your token
+
+
 
 ??? example "Shell"
     <iframe width=800px, height=500 frameBorder=0 src="https://tmate.io/t/tbsJMJN3Fau3sjzppVBX3KqMt"></iframe>

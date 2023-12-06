@@ -73,6 +73,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: material/rocket
+    annotation: material/arrow-right-circle 
 
 # Options
 extra:
