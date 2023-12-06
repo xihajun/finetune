@@ -27,8 +27,8 @@ nav:
     - '2. Finetuning LLM': 02_llm_finetune.md
     - '3. Evaluate the Model': 03_model_evaluation.md
     - '4. Inside the Block Box': 04_black_box_enigma.md
-    - '5. Version Control': 05_version_control.md
-    - '6. Reproducibility I: Repeatability': 06_reproducibility_i.md
+    - '5. Common issues': 05_common_issues.md
+    - '6. Good resources: Repeatability': 06_resources.md
     - '7. Reproducibility II: Containers': 07_reproducibility_ii.md
   - Capstone Project:
       - 'Overview': final_project/overview.md
