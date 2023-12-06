@@ -26,7 +26,6 @@ Huggingfaces' `autotrain` makes our life easier and have a great support from th
     ```
 
 
-
 ??? example "Shell"
     <iframe width=800px, height=500 frameBorder=0 src="https://tmate.io/t/tbsJMJN3Fau3sjzppVBX3KqMt"></iframe>
 
@@ -39,7 +38,7 @@ Huggingfaces' `autotrain` makes our life easier and have a great support from th
     ??? "Optional"
         - If you want to push your model to the hub, you need to create a token from [here](https://huggingface.co/settings/token).
         - wandb is a great tool to track your training process. You can create an account from [here](https://wandb.ai/authorize).
-        
+
     ```bash
     autotrain llm \
         --train \
