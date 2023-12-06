@@ -19,4 +19,6 @@
     *  What are the steps to finetune a LLM?
 
 
+### Visualize the GPT Model
+
 <iframe width=800px, height=2000 frameBorder=0 src="https://bbycroft.net/llm"></iframe>

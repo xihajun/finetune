@@ -97,7 +97,6 @@ Follow the steps below to prepare your data:
         - [ ] logs
         - [ ] automation scripts
 
-
 === "CNN dailymail"
 
     Prepare the training dataset with the `<s></s>` format (10K samples)
