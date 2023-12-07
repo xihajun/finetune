@@ -29,7 +29,7 @@ nav:
     - '4. Inside the Block Box': 04_black_box_enigma.md
     - '5. Common issues': 05_common_issues.md
     - '6. Good resources: Repeatability': 06_resources.md
-    - '7. Reproducibility II: Containers': 07_reproducibility_ii.md
+    - '7. GitHub Action': 07_cicd.md
   - Capstone Project:
       - 'Overview': final_project/overview.md
 
