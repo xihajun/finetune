@@ -17,10 +17,6 @@ copyright: 'Copyright &copy; 2023 KRAI'
 nav:
   - Home: 
     - 'Home': index.md
-    - 'Before FOSS Starts': installation.md
-    - 'Schedule': schedule.md
-    - 'Code of Conduct': code_of_conduct.md
-    - 'Glossary & Acronyms': glossary.md
   - Lessons:
     - '0. LLM Introduction': 00_llm_intro.md
     - '1. Data Preparation': 01_data_prep.md

@@ -1,8 +1,7 @@
-<figure markdown>
-  [![!CyVerse Learning Center](assets/logos/cyverse_logo_2022.png "CyVerse Learning Center"){ width="400" }](https://learning.cyverse.org){target=_blank}
-</figure>
 
 # Fine-tuning LLM Guidance
+
+(check lessons)
 
 ![mindmap](assets/mindmap.png)
 
