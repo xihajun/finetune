@@ -26,8 +26,8 @@ nav:
     - '5. Common issues': 05_common_issues.md
     - '6. Good resources: Repeatability': 06_resources.md
     - '7. GitHub Action': 07_cicd.md
-  - Capstone Project:
-      - 'Overview': final_project/overview.md
+  # - Capstone Project:
+  #     - 'Overview': final_project/overview.md
 
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:
